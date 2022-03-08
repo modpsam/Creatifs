@@ -24,6 +24,7 @@ button{
 	border-radius: 50px;
 	cursor: pointer;
 	transition: all 0.3s ease 0s;
+	margin-left: 20px;
 
 
 
@@ -38,16 +39,26 @@ header{
 
 .logo{
 	cursor: pointer;
+	order: 3;
+	margin-left: auto;
 }
 
+nav{
+	order: 1;
+}
 .nav_links{
 	list-style: none;
+}
+
+.nav_links li:nth-child(1){
+	padding: 0px 20px 0 0;
 }
 
 .nav_links li{
 	display: inline-block;
 	padding: 0px 20px;
-}
+	}
+
 .nav_links li a{
 	transition: all 0.3s ease 0s;
 }
@@ -58,4 +69,8 @@ header{
 
 button:hover{
 		background-color: rgba(0, 136, 169, 0.8);
+}
+
+.cta{
+	order: 2;
 }
