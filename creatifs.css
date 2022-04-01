@@ -13,7 +13,7 @@ li a{
 
 }
 
-button{
+.cta{
 	text-decoration: none;
 	color: white;
 	font-family: 'Nunito', sans-serif;
@@ -56,7 +56,7 @@ header{
 
 }
 
-button:hover{
+.cta:hover{
 		background-color: rgba(0, 136, 169, 0.8);
 }
 
